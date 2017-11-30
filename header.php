@@ -33,31 +33,19 @@
 				</div>
 			</div>
 			<div class="col-sm-6 hidden-xs">
-				<div class="form-inline hidden-xs hidden-sm text-right">
-                    <form class="navbar-form" role="search">
-                        <div class="input-group">
-                            <input type="text" name="search" class="form-control" placeholder="全站搜尋">
-                            <span class="input-group-btn">
-                                <button type="reset" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-remove">
-                                        <span class="sr-only">Close</span>
-                                    </span>
-                                </button>
-                                <button type="submit" class="btn btn-default">
-                                    <span class="glyphicon glyphicon-search">
-                                        <span class="sr-only">Search</span>
-                                    </span>
-                                </button>
-                            </span>
-                        </div>
-                    </form>
-                </div>
+				<ul class="nav navbar-nav linkbar pull-right">
+					<li><a href="index.php">回首頁</a></li>
+					<li><a href="#">臺北大學首頁</a></li>
+					<li><a href="#">網路地圖</a></li>
+					<li><a href="#">語言中心</a></li>
+					<li><a href="#">English</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </header>
 <nav class="navbar navbar-inverse" >
-	<div class="container">
+	<div class="container-full">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 				<span class="sr-only">Toggle navigation</span>
@@ -69,35 +57,37 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.php">首頁</a></li>
+				<li><a href="index.php">關於本系</a></li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">重要公告 <span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">公告事項 <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">榮譽捷報</a></li>
 						<li><a href="#">演講資訊</a></li>
 					</ul>
 				</li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">系所簡介 <span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">系所成員 <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">系史館</a></li>
 					</ul>
 				</li>
-				<li><a href="#">師資介紹</a></li>
+				<li><a href="#">學術成果</a></li>
+				<li><a href="#">學術活動</a></li>
+				<li><a href="#">課程資訊</a></li>
 				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">學生專區 <span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">獎助學金</a></li>
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">招生資訊 <span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">招生訊息 <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="#">大學部</a></li>
 					</ul>
 				</li>
-				<li><a href="#">系友專區</a></li>
+				<li><a href="#">行政法規</a></li>
+				<li><a href="#">網路資源</a></li>
+				<li><a href="#">活動花絮</a></li>
+				<li class="visible-xs-block"><a href="#">臺北大學首頁</a></li>
+				<li class="visible-xs-block"><a href="#">網路地圖</a></li>
+				<li class="visible-xs-block"><a href="#">語言中心</a></li>
+				<li class="visible-xs-block"><a href="#">English</a></li>
 			</ul>
-		</div><!--/.nav-collapse -->
+		</div>
 	</div>
 </nav>
