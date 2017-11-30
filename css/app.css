@@ -255,15 +255,15 @@ a:active {
   background-color: #a32924;
 }
 
-/*.content-wrap .homeblock-wrap img {
-  width: 100%;
-}*/
-
 .content-wrap .homeblock-wrap .list a {
   display: block;
   color: #333;
   font-weight: 700;
   margin-bottom: 10px;
+}
+
+.content-wrap .homeside-img {
+  padding: 15px 0;
 }
 
 /*.content-wrap .sidebar-wrap h3 {
