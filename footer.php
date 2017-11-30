@@ -1,12 +1,10 @@
 	<footer>
         <div class="container">
-        	<div class="col-xs-12 col-sm-2 border-right">
-        		<img src="images/logo-sm.png" alt="NTPU" class="img-responsive center-block" />
-        	</div>
-        	<div class="col-xs-12 col-sm-10">
+        	<div class="col-xs-12">
         		<div class="footer-contact">
-                    <p class="copyright">版權所有 &copy; 2017國立台北大學・資訊工程學系</p>
-                    <p>(237)新北市三峽區大學路151號 社科大樓 4F19／電話：(02)8674111&nbsp;分機：67208／傳真：02-26744448</p>      
+                    <p class="copyright">版權所有 &copy; 2017國立臺北大學本網站著作權屬於國立臺北大學應用外語學系，請詳見使用規則</p>
+                    <p>電話：(02)26748189&nbsp;分機：66606、66607／傳真：(02)86715305</p>
+                    <p>地址：三峽校區&nbsp;-&nbsp;(237)新北市三峽區大學路151號／E-mail：flal@mail.ntpu.edu.tw</p>
                 </div>
         	</div>
         </div>
