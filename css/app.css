@@ -429,20 +429,14 @@ footer {
  * content block
  */
 .content-box h1 {
-  color: #092f9e;
+  /*color: #092f9e;*/
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 15px;
-  border: 1px solid #bcbcbc;
-  border-left: 6px solid #092f9e;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  background: url(../images/page/title/text_page.png) no-repeat center right;
+  border-bottom: 1px solid #bcbcbc;
+  border-top: 3px solid #9f0e3b;
 }
 
 .content-box h3 {
@@ -450,13 +444,35 @@ footer {
   margin-bottom: 18px;
 }
 
-.content-box .border {
-  height: 6px;
-  margin-top: 10px;
-  background: linear-gradient(0deg, rgba(9, 47, 158, 1)30%, rgba(224, 224, 224, 1)30%);
-  background: -moz-linear-gradient(0deg, rgba(9, 47, 158, 1)30%, rgba(224, 224, 224, 1)30%);
-  background: -webkit-linear-gradient(0deg, rgba(9, 47, 158, 1)30%, rgba(224, 224, 224, 1)30%);
-  background: -o-linear-gradient(0deg, rgba(9, 47, 158, 1)30%, rgba(224, 224, 224, 1)30%);
+.content-box h3.title {
+  padding: 15px 10px 15px 24px;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  background-color: #eeeeee;
+}
+
+.content-box h3.title:before {
+  content: '';
+  width: 6px;
+  height: 26px;
+  position: absolute;
+  top: 15px;
+  left: 9.5px;
+  background: linear-gradient(-90deg, rgba(254, 1, 0, 1)50%, rgba(159, 14, 59, 1)50%);
+  background: -moz-linear-gradient(-90deg, rgba(254, 1, 0, 1)50%, rgba(159, 14, 59, 1)50%);
+  background: -webkit-linear-gradient(-90deg, rgba(254, 1, 0, 1)50%, rgba(159, 14, 59, 1)50%);
+  background: -o-linear-gradient(-90deg, rgba(254, 1, 0, 1)50%, rgba(159, 14, 59, 1)50%);
+}
+
+.content-box h3.sub-title {
+  padding: 10px 10px 10px 24px;
+  border-bottom: 2px solid #dad4b2;
+  background-color: #f3eeda;
 }
 
 .content-box .content {
@@ -466,6 +482,22 @@ footer {
 .content-box .content p {
   margin-bottom: 16px;
   line-height: 26px;
+}
+
+.content-box .feature>h4 {
+  color: #9f0e3b;
+  font-weight: 700;
+}
+
+.content-box .feature>.item>h4 {
+  margin-top: 0;
+  padding: 10px 5px;
+  font-weight: 700;
+  background-color: #faf8ec;
+}
+
+.content-box .feature>.item>p {
+  padding-left: 20px;
 }
 
 .content-box .content>.list {
