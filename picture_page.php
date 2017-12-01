@@ -1,6 +1,9 @@
 <?php
  require_once("header.php");
- require_once("carousel.php");
+ require_once("banner.php");
+
+// 教授連結
+$professor = array('林伯星','呂嘉穀','莊東穎','陳裕賢','張仁俊','林道通','張玉山','曾俊元','陳志昌','樛致芳','吳信龍','戴志華','黃有評','沈榮麟','黃俊堯','曹偉駿','楊棧雲','林嘉洤','詹景裕','陳永源','黃弘一','Hooman Samani','鄭穎仁','郭岳芳','白宏達','謝欣霖','王鵬華','魏存毅','江振宇','余帝毅','黃昱智','許智舜','張宏慶','羅崇銘','高孟');
 ?>
 <section class="content-wrap">
 	<div class="container-full clearfix">
@@ -14,7 +17,6 @@
 						<span class="icon-bar"></span>
 					</button>
 					<h3>重要公告</h3>
-					<img src="images/page/sidebar/text-page.png" class="img-responsive hidden-xs" />
 				</div>
 				<div id="sideNavbar" class="list navbar-collapse collapse" aria-expanded="false">
 					<ul class="nav navbar-nav">
@@ -53,19 +55,57 @@
 		</div>
 		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
 			<div class="content-box">
-				<h1>校園活動</h1>
-				<h3>系友老師及同學們之間活動剪影<div class="border"></div></h3>
-				<div class="photos">
-					<div class="row">
-						<div class="col-xs-6"><img src="images/page/active/photo-1.png" class="img-responsive center-block" /></div>
-						<div class="col-xs-6"><img src="images/page/active/photo-2.png" class="img-responsive center-block" /></div>
-						<div class="clearfix"></div>
-						<div class="col-xs-6"><img src="images/page/active/photo-3.png" class="img-responsive center-block" /></div>
-						<div class="col-xs-6"><img src="images/page/active/photo-4.png" class="img-responsive center-block" /></div>
-						<div class="clearfix"></div>
-						<div class="col-xs-6"><img src="images/page/active/photo-5.png" class="img-responsive center-block" /></div>
-						<div class="col-xs-6"><img src="images/page/active/photo-6.png" class="img-responsive center-block" /></div>
+				<h1>關於本系</h1>
+				<div class="linkbar"><?php foreach ($professor as $key => $name) {?><a href="#"><?php echo $name; ?></a><?php } ?></div>
+				<h2 class="text-center">專任教師</h2>
+				<div class="panel self-wrap">
+					<div class="panel-body">
+						<div class="basic clearfix">
+							<div class="col-xs-12 col-sm-3">
+								<img src="images/page/professor/professor-1.png" class="img-responsive center-block headshot">
+							</div>
+							<div class="col-xs-12 col-sm-9">
+								<p>職稱：教授兼系主任</p>
+								<p>姓名：陳彥豪</p>
+								<p>授課領域：口筆譯、文學表演學、國際談...</p>
+								<p><i class="fa fa-envelope-o" aria-hidden="true"></i> yhpc@gm.ntpu.edu.tw</p>
+								<p>聯絡電話：(02)8674-1111 #66628、18335</p>
+							</div>
+						</div>
+						<div class="paper clearfix">
+							<div class="col-xs-12">
+								<p class="marking date">時間：2008-05-22</p>
+								<p class="marking thesis">講題：WiMax Wireless Technologies for Telemedicine and HealthCare Applications</p>
+								<p>附件：<a href="#">專題演講.zip</a></p>
+							</div>
+						</div>
 					</div>
+				</div>
+				<div class="panel self-wrap">
+					<div class="panel-body">
+						<div class="basic clearfix">
+							<div class="col-xs-12 col-sm-3">
+								<img src="images/page/professor/professor-2.png" class="img-responsive center-block headshot">
+							</div>
+							<div class="col-xs-12 col-sm-9">
+								<p>職稱：助理教授</p>
+								<p>姓名：翁素涵</p>
+								<p>授課領域：口筆譯、文學表演學、國際談...</p>
+								<p><i class="fa fa-envelope-o" aria-hidden="true"></i> yhpc@gm.ntpu.edu.tw</p>
+								<p>聯絡電話：(02)8674-1111 #66628、18335</p>
+							</div>
+						</div>
+						<div class="paper clearfix">
+							<div class="col-xs-12">
+								<p class="marking date">時間：2008-05-22</p>
+								<p class="marking thesis">講題：WiMax Wireless Technologies for Telemedicine and HealthCare Applications</p>
+								<p>附件：<a href="#">專題演講.zip</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btns text-center">
+					<a href="#" class="btn btn-lg more">More</a>
 				</div>
 			</div>
 		</div>

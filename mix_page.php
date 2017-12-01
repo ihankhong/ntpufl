@@ -14,7 +14,6 @@
 						<span class="icon-bar"></span>
 					</button>
 					<h3>重要公告</h3>
-					<img src="images/page/sidebar/text-page.png" class="img-responsive hidden-xs" />
 				</div>
 				<div id="sideNavbar" class="list navbar-collapse collapse" aria-expanded="false">
 					<ul class="nav navbar-nav">

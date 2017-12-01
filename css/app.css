@@ -49,7 +49,8 @@ a:active {
 }
 
 .navbar-inverse,
-.back-to-top {
+.back-to-top,
+.btns .more {
   background-color: #9f0e3b;
   border-color: #772B21;
 }
@@ -504,34 +505,6 @@ footer {
   padding-left: 20px;
 }
 
-/*.content-box .content>.list {
-  padding: 15px;
-  border-top: 1px dashed #d7d7d7;
-}
-
-.content-box .content>.list:first-child {
-  border-top: none;
-}
-
-.content-box .content>.list>span {
-  margin-right: 20px;
-}
-
-.content-box .content>.list>a {
-  color: #4670ba;
-}
-
-.content-box .content>.list:hover,
-.content-box .content>.list:focus,
-.content-box .content>.list:active {
-  text-decoration: none;
-  background-color: #eee;
-}
-
-.content-box .photos img {
-  margin-bottom: 15px;
-}*/
-
 .content-box .content>.mix {
   margin-top: 20px;
 }
@@ -555,6 +528,59 @@ footer {
   padding-right: 20px;
 }
 
+.content-box .linkbar {
+  margin-top: 20px;
+}
+
+.content-box .linkbar>a {
+  padding: 0 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-weight: 700;
+  border-right: 1px solid #333;
+}
+
+.content-box .self-wrap {
+  border: 1px solid #d7d7d7;  
+  border-left: 3px solid #9f0e3b;
+  background-color: #fdfdfd;
+}
+
+.content-box .self-wrap .panel-body>.basic {
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.content-box .self-wrap .panel-body>.basic img.headshot {
+  border: 1px solid #333;
+}
+
+.content-box .self-wrap .panel-body>.basic>div>p:before {
+  font-family: FontAwesome;
+  content: "\f192";
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+.content-box .self-wrap .panel-body>.paper>div>p.marking:before {
+  content: url(../images/page/icon/mark.png);
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+.content-box .self-wrap .panel-body>.paper>div>p.date {
+  color: #7b7673;
+}
+
+.content-box .self-wrap .panel-body>.paper>div>p.thesis {
+  font-weight: 700;
+}
+
+
+
 @media all and (max-width: 767px) {
   .content-box {
     margin-top: 20px;
@@ -562,6 +588,10 @@ footer {
 
   .content-box h1 {
     font-size: 30px;
+  }
+
+  .content-box .self-wrap .panel-body>.basic img.headshot {
+    margin-bottom: 10px;
   }
 }
 
@@ -596,4 +626,12 @@ footer {
 .back-to-top:focus,
 .back-to-top:hover {
   color: #fff;
+}
+
+/**
+ * btn more
+ */
+.btns .more {
+  color: #fff;
+  padding: 10px 60px;
 }
