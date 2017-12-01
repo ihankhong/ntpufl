@@ -9,6 +9,6 @@
         	</div>
         </div>
     </footer>
-    <a id="back-to-top" href="#" class="btn btn-sm back-to-top" role="button" title="Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <a id="back-to-top" href="#" class="btn btn-sm back-to-top" role="button"><span class="glyphicon glyphicon-chevron-up"></span></a>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php
  require_once("header.php");
- require_once("carousel.php");
+ require_once("banner.php");
 ?>
 <section class="content-wrap">
 	<div class="container-full clearfix">
@@ -53,43 +53,32 @@
 		</div>
 		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
 			<div class="content-box">
-				<h1>通過IEET認證</h1>
-				<h3>IEET認證在世界一流大學多參與認證<div class="border"></div></h3>
+				<h1>外語應用·科案</h1>
+				<h3 class="title">英語語音學學分學程</h3>
 				<div class="content">
-					<p>中華工程教育學會(IEET)成立於2003年，為一非官方、非營利的社團法人。IEET是國內首家受教育部認可的專業評鑑機構，主要業務為規劃及執行符合國際標準的工程教育(EAC)、資訊教育(CAC)、技術教育(TAC)、建築教育(AAC)認證及設計教育(DAC)認證。國內已有84所大學校院的546個系所參與IEET認證。</p>
-					<div class="mix clearfix">
-						<h3>中文版</h3>
-						<div class="row">
-							<div class="col-xs-12 col-sm-4">
-								<img src="images/page/proof/mix_page-1.png" class="img-responsive center-block" />
-							</div>
-							<div class="col-xs-12 col-sm-8">
-								<div class="item">
-									<label class="sub-title">透過認證機制</label>
-									<p>IEET訂定及維持國際間認可的專業核心能力及倫理規範</p>
-								</div>
-								<div class="item">
-									<label class="sub-title">藉此維繫業界</label>
-									<p>政府及整體社會對於我國未來工程、資訊、技術及建築領域專業人才的信心。</p>
-								</div>
-								<div class="link"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="http://www.ieet.org.tw/">http://www.ieet.org.tw/</a></div>
-							</div>
+					<div class="row">
+						<div class="col-xs-12 col-sm-7 col-md-8">
+							<p>國立台北大學的前身是國立中興大學法商學院，已有悠久的法商與人文基礎，現有台北及三峽二大校區。台北校區位於民生東路及建國北路交叉口，為台北市的商業特區；三峽校區位於南港軟體園區、中研院及新竹科學園區間，三峽交流道旁，為台灣高科技產業的中心點，交通便利。校區幅員遼闊、交通便利。三峽校區依山傍水、風景秀麗，為一所孕育高級人才的美麗大學。為使科技與人文均衡發展，達到全人教育的教育理念，奉准於九十三學年度成立資訊工程學系，招收大學部之優秀人才一班。並奉准於九十七學年度成立碩士班。</p>
 						</div>
-						<h3>英文版</h3>
+						<div class="col-xs-12 col-sm-5 col-md-4">
+							<img src="images/page/mix/mix_page.png" class="img-responsive center-block" />
+						</div>
+					</div>
+					<div class="mix clearfix">
 						<div class="row">
-							<div class="col-xs-12 col-sm-4">
-								<img src="images/page/proof/mix_page-2.png" class="img-responsive center-block" />
+							<div class="col-xs-12 col-sm-6">
+								<h4>語言學概論學分學程</h4>
+								<div class="item">
+									<img src="images/page/mix/item/mix_item-1.png" class="img-responsive center-block" />
+									<p>國立台北大學的前身是國立中興大學法商學院，已有悠久的法商與人文基礎，現有台北及三峽二大校區。</p>
+								</div>
 							</div>
-							<div class="col-xs-12 col-sm-8">
+							<div class="col-xs-12 col-sm-6">
+								<h4>英語字彙學學分學程</h4>
 								<div class="item">
-									<label class="sub-title">Through the certification mechanism</label>
-									<p>IEET establishes and maintains internationally recognized professional core competencies and ethical practices.</p>
+									<img src="images/page/mix/item/mix_item-2.png" class="img-responsive center-block" />
+									<p>國立台北大學的前身是國立中興大學法商學院，已有悠久的法商與人文基礎，現有台北及三峽二大校區。</p>
 								</div>
-								<div class="item">
-									<label class="sub-title">To maintain the industry</label>
-									<p>The Government and the community as a whole in the future of engineering, information, technology and construction professionals in the field of confidence.</p>
-								</div>
-								<div class="link"><i class="fa fa-angle-right" aria-hidden="true"></i><a href="http://www.ieet.org.tw/">http://www.ieet.org.tw/</a></div>
 							</div>
 						</div>
 					</div>
