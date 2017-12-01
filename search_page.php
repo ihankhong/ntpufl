@@ -78,32 +78,51 @@
 					<div class="list-wrap clearfix">
 						<h3>系所公告<a href="#" class="pull-right">View All</a></h3>
 						<div class="list clearfix">
-							<div class="col-xs-5"><span class="btn category">譯著</span><span class="date">2017-12-30</span></div>
-							<div class="col-xs-6"><a href="#">翁素涵 譯 100 Best Careers in Entertainment (娛樂業100大作)Classic Communications Co. 經典傳訊 [未出版]</a></div>
-							<div class="col-xs-1"><label for="author">翁素涵</label></div>
+							<div class="col-xs-4 col-md-4 col-lg-3"><span class="btn category">譯著</span><span class="date">2017-12-30</span></div>
+							<div class="col-xs-6 col-md-6 col-lg-8"><a href="#">翁素涵 譯 100 Best Careers in Entertainment (娛樂業100大作)Classic Communications Co. 經典傳訊 [未出版]</a></div>
+							<div class="col-xs-2 col-md-2 col-lg-1"><label for="author">翁素涵</label></div>
 						</div>
 						<div class="list clearfix">
-							<div class="col-xs-5"><span class="btn category">研討會論文</span><span class="date">2017-12-30</span></div>
-							<div class="col-xs-6"><a href="#">(近期略)</a></div>
-							<div class="col-xs-1"><label for="author">翁素涵</label></div>
+							<div class="col-xs-4 col-md-4 col-lg-3"><span class="btn category">研討會論文</span><span class="date">2017-12-30</span></div>
+							<div class="col-xs-6 col-md-6 col-lg-8"><a href="#">(近期略)</a></div>
+							<div class="col-xs-2 col-md-2 col-lg-1"><label for="author">翁素涵</label></div>
 						</div>
 						<div class="list clearfix">
-							<div class="col-xs-5"><span class="btn category">期刊論文</span><span class="date">2017-12-30</span></div>
-							<div class="col-xs-6"><a href="#">〈如果，明天沒有愛：論《夜曲集》中的液態愛〉</a></div>
-							<div class="col-xs-1"><label for="author">翁素涵</label></div>
+							<div class="col-xs-4 col-md-4 col-lg-3"><span class="btn category">期刊論文</span><span class="date">2017-12-30</span></div>
+							<div class="col-xs-6 col-md-6 col-lg-8"><a href="#">〈如果，明天沒有愛：論《夜曲集》中的液態愛〉</a></div>
+							<div class="col-xs-2 col-md-2 col-lg-1"><label for="author">翁素涵</label></div>
 						</div>
 						<div class="list clearfix">
-							<div class="col-xs-5"><span class="btn category">期刊論文</span><span class="date">2017-12-30</span></div>
-							<div class="col-xs-6"><a href="#">〈The Empire Cooks Back: Cultural Hybridization in Timothy〉</a></div>
-							<div class="col-xs-1"><label for="author">翁素涵</label></div>
+							<div class="col-xs-4 col-md-4 col-lg-3"><span class="btn category">期刊論文</span><span class="date">2017-12-30</span></div>
+							<div class="col-xs-6 col-md-6 col-lg-8"><a href="#">〈The Empire Cooks Back: Cultural Hybridization in Timothy〉</a></div>
+							<div class="col-xs-2 col-md-2 col-lg-1"><label for="author">翁素涵</label></div>
 						</div>
 						<div class="list clearfix">
-							<div class="col-xs-5"><span class="btn category">期刊論文</span><span class="date">2017-12-30</span></div>
-							<div class="col-xs-6"><a href="#">《海港都市研究》8 (2013年3月)：41-59</a></div>
-							<div class="col-xs-1"><label for="author">翁素涵</label></div>
+							<div class="col-xs-4 col-md-4 col-lg-3"><span class="btn category">期刊論文</span><span class="date">2017-12-30</span></div>
+							<div class="col-xs-6 col-md-6 col-lg-8"><a href="#">《海港都市研究》8 (2013年3月)：41-59</a></div>
+							<div class="col-xs-2 col-md-2 col-lg-1"><label for="author">翁素涵</label></div>
 						</div>
 					</div>
 				</div>
+				<nav class="text-center" aria-label="Page navigation">
+				  <ul class="pagination">
+				    <li>
+				      <a href="#" aria-label="Previous">
+				        <span aria-hidden="true">&laquo;</span>
+				      </a>
+				    </li>
+				    <li><a href="#">1</a></li>
+				    <li><a href="#">2</a></li>
+				    <li><a href="#">3</a></li>
+				    <li><a href="#">4</a></li>
+				    <li><a href="#">5</a></li>
+				    <li>
+				      <a href="#" aria-label="Next">
+				        <span aria-hidden="true">&raquo;</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
 			</div>
 		</div>
 	</div>
