@@ -137,7 +137,7 @@ a:active {
   background-color: #a14438;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 992px) {
   .navbar .navbar-header h4 {
     display: none;
   }
@@ -153,7 +153,56 @@ a:active {
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .navbar-header,
+  nav .navbar-nav,
+  nav .navbar-nav > li {
+    float: none !important;
+  }
+
+  nav .navbar-toggle,
+  nav .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+
+  nav .navbar-collapse {
+    border-top: 1px solid transparent;
+  }
+
+  nav .navbar-collapse.collapse {
+    display: none !important;
+  }
+
+  nav .navbar-nav {
+    margin: 7px -15px;
+  }
+
+  nav .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  nav .collapsing {
+    overflow: hidden !important;
+  }
+
+  nav ul.navbar-nav>li>.dropdown-menu {
+    position: relative;
+    top: 0;
+    z-index: 0;
+    float: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  nav ul.navbar-nav>li>.dropdown-menu>li>a {
+    padding: 10px 30px;
+  }
+}
+
+@media all and (max-width: 991px) {
   .navbar-inverse .navbar-nav>li>a {
     border-left: none;
     border-top: 2px solid #772B21;
@@ -162,7 +211,9 @@ a:active {
   .navbar-inverse .navbar-nav>li:first-child>a {
     border-top: none;
   }
+}
 
+@media all and (max-width: 767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     color: #fff;
   }
