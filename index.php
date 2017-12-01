@@ -22,7 +22,7 @@
 <section class="content-wrap">
 	<div class="container-full clearfix">
 		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
-			<div class="homeblock-wrap clearfix">
+			<div class="list-wrap clearfix">
 				<h3>系所公告<a href="#" class="pull-right">View All</a></h3>
 				<div class="list clearfix">
 					<div class="col-xs-5"><span class="btn category">專題講座</span><span class="date">2017-12-30</span></div>
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 		<div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
-			<div class="homeblock-wrap clearfix">
+			<div class="list-wrap clearfix">
 				<h3>學術活動<a href="#" class="pull-right">View All</a></h3>
 				<div class="list clearfix">
 					<div class="col-xs-5"><span class="btn category">專題講座</span><span class="date">2017-12-30</span></div>

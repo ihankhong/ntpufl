@@ -247,11 +247,11 @@ a:active {
   margin-bottom: 30px;
 }
 
-.content-wrap .homeblock-wrap {
+.content-wrap .list-wrap {
   margin-bottom: 20px;
 }
 
-.content-wrap .homeblock-wrap h3 {
+.content-wrap .list-wrap h3 {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 20px;
@@ -259,41 +259,41 @@ a:active {
   border-bottom: 1px solid #648ab9;
 }
 
-.content-wrap .homeblock-wrap h3>a {
+.content-wrap .list-wrap h3>a {
   color: #333;
   font-size: 18px;
 }
 
-.content-wrap .homeblock-wrap .list {
+.content-wrap .list-wrap .list {
   padding: 10px 0;
   border-bottom: 1px solid #b5b5b5;
 }
 
-.content-wrap .homeblock-wrap .list:focus,
-.content-wrap .homeblock-wrap .list:hover,
-.content-wrap .homeblock-wrap .list:active {
+.content-wrap .list-wrap .list:focus,
+.content-wrap .list-wrap .list:hover,
+.content-wrap .list-wrap .list:active {
   text-decoration: none;
   background-color: #eee;
 }
 
-.content-wrap .homeblock-wrap .list span.category {
+.content-wrap .list-wrap .list span.category {
   color: #fff;
   margin-right: 10px;
   background-color: #a32924;
 }
 
-.content-wrap .homeblock-wrap .list a {
+.content-wrap .list-wrap .list a {
   display: block;
   color: #333;
   font-weight: 700;
 }
 
-.content-wrap .homeblock-wrap h3>a:focus,
-.content-wrap .homeblock-wrap h3>a:hover,
-.content-wrap .homeblock-wrap h3>a:active,
-.content-wrap .homeblock-wrap .list:focus a,
-.content-wrap .homeblock-wrap .list:hover a,
-.content-wrap .homeblock-wrap .list:active a {
+.content-wrap .list-wrap h3>a:focus,
+.content-wrap .list-wrap h3>a:hover,
+.content-wrap .list-wrap h3>a:active,
+.content-wrap .list-wrap .list:focus a,
+.content-wrap .list-wrap .list:hover a,
+.content-wrap .list-wrap .list:active a {
   color: #4670ba;
 }
 
@@ -546,15 +546,14 @@ footer {
   border: 6px solid #f3f2ee;
 }
 
-/*.content-box .content>.mix .item>.sub-title {
-  font-weight: 700;
-  display: block;
+.content-box #toolbar-form {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.content-box .content>.mix .link>i {
-  margin-right: 5px;
-  font-weight: 700;
-}*/
+.content-box #toolbar-form .form-group {
+  padding-right: 20px;
+}
 
 @media all and (max-width: 767px) {
   .content-box {
@@ -564,10 +563,6 @@ footer {
   .content-box h1 {
     font-size: 30px;
   }
-
-  /*.content-box .content>.mix>.row>div:first-child {
-    margin-bottom: 15px;
-  }*/
 }
 
 @media all and (max-width: 450px) {
